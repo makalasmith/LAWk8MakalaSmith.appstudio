@@ -9,11 +9,11 @@ hmbMenu.onclick=function(s){
   case "Describe You":
     ChangeForm(describeYou)
     break
-  case "Favorite Exercises"
+  case "Favorite Exercises":
     ChangeForm(favExercises)
     break
-  case "Mobile Navigation"
+  case "Mobile Navigation":
     ChangeForm(mobileNav)
     break
-       }
+  }
 }
