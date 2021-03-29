@@ -8,14 +8,18 @@ dessertVoting.onshow=function(){
 }
 
 
-drpDesserts.onclick=function(){
+drpDesserts.onclick=function(s){
 // this 'if' kicks user out if they  just clicked on control 
 // but not on one item in the list.
     if (typeof(s) == "object")   
       return                    
-    else {  // the user picked something
-        /* add code here to get item user chose and output 
-        it in a label, using a literal.
-        */
+    else {
+      drpDesserts.value = s
+      console.log(`You picked ${s} - that is a great choice!`)
     }
+
+}
+
+btnDescribeYouPage.onclick=function(){
+  ChangeForm(describeYou)
 }
