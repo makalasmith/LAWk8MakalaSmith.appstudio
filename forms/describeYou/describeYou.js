@@ -5,5 +5,5 @@ btnFavExercises.onclick=function(){
 
 rdbtnPersonality.onchange=function(){
   let userChoice = $("input[name=rdbtnPersonality]:checked").prop("value")
-  console.log(`I would agree that you are a ${userChoice} person too!`)
+  lblMessage2.value = `I would agree that you are a ${userChoice} person too!`
 }
