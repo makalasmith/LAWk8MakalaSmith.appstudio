@@ -16,7 +16,7 @@ btnDone.onclick=function(){
      message = message + selExercises.text[i] + ", "
      
   if(message == "situps, plank, ")
-    console.log("You chose situps and planks - those are the two core exercises.")
+    lblMessage3.value = "You chose situps and planks - those are the two core exercises."
   else
-    console.log(`You did not pick the two core exercises.`)
+    lblMessage3.value = `You did not pick the two core exercises.`
 }
